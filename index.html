@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NTU Mail Bridge</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.85; color: #222; }
+  h1 { font-size: 1.55rem; margin-bottom: .25rem; }
+  .sub { color: #666; margin-top: 0; }
+  p, li { font-size: 1rem; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #e2e2e2; color: #777; font-size: .85rem; }
+</style>
+</head>
+<body>
+<h1>NTU Mail Bridge</h1>
+<p class="sub">個人自用的郵件橋接工具（personal mail mirroring tool）</p>
+
+<p>NTU Mail Bridge 是一個由應用程式擁有者本人自行架設與使用的工具，用途是把台大學生信箱（NTU WebMail）的收件匣複製到自己的 Gmail，並透過台大 SMTP 伺服器直接寄信。</p>
+
+<h2>功能</h2>
+<ul>
+  <li>以 POP3 持續讀取台大信箱的收件匣，將信件匯入自己的 Gmail，並加上「NTU」標籤。</li>
+  <li>透過台大 SMTP 寄信後，在自己 Gmail 的「已寄出」保存副本。</li>
+  <li>匯入前會查詢 Gmail 是否已有相同信件，避免重複。</li>
+</ul>
+
+<h2>使用對象</h2>
+<ul>
+  <li>本應用程式僅供擁有者一人使用，沒有其他使用者，也不對外提供服務。</li>
+  <li>本應用程式不會向任何人分享、販售或轉移 Google 使用者資料。</li>
+</ul>
+
+<p>隱私權政策：<a href="./privacy.html">請見隱私權政策頁面</a></p>
+
+<footer>
+  NTU Mail Bridge — used only by its owner. Contact: leoyeesir@gmail.com
+</footer>
+</body>
+</html>
